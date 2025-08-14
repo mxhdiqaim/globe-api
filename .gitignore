@@ -1,6 +1,26 @@
-venv
-.idea
-.vscode
-__pycache__
-*.pyc
-*.pyo
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Virtual environment files
+venv/
+env/
+.venv/
+
+# Database files
+*.db
+*.sqlite3
+
+# Logs and debugging files
+*.log
+.coverage
+.tox/
+
+# Local data (Docker-related)
+db_data/
+cities.geojson
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
